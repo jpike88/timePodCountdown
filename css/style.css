@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+.centered {
+  width:100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#days {
+  font-size: 150px;
+  color: #db4844;
+}
+#hours {
+  font-size: 150px;
+  color: #fff;
+}
+#minutes {
+  font-size: 150px;
+  color: #fff;
+}
+#seconds {
+  font-size: 150px;
+  color: #fff;
+}
+
+div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+body {
+  text-align: center;
+  /*font-family: 'Covered By Your Grace', cursive;
+  */
+  color: white;
+  background: #222;
+}
